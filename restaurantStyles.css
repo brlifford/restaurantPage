@@ -1,0 +1,80 @@
+h1 {
+	font-family: Georgia;
+}
+
+body {
+	text-align: center;
+	background-color: Lavender;
+	font-family: Georgia;
+}
+
+p {
+	text-align: justify;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.backgroundImage {
+	background: url("http://mikestravelguide.com/wp-content/uploads/2012/06/Maastricht-cafe-800x600.jpg") no-repeat;
+	width: Auto;
+	height: 400px;
+	background-position: center;
+}
+
+.menuFoodImage {
+	background: url("http://goodluckgrill.com/wp-content/uploads/2012/08/american-homestyle-food-slider-2.jpg") no-repeat;
+	width: Auto;
+	height: 400px;
+	background-position: center;
+}
+
+.headerTemplate {
+	text-align: left;
+	padding-left: 10px;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	font-family: fantasy;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:visited {
+	color: Red;
+}
+
+caption {
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 65px;
+}
+
+.mainCourse {
+	width: 100%;
+	text-align: center;
+}
+
+.fixedAlign {
+	padding-right: 20%;
+	padding-left: 20%;
+	width: 100%;
+	
+}
+
+
+.beverages {
+	text-align: left;
+	padding-left: 35px;
+	width: 75%;
+}
+	
+.footerTemplate {
+	text-align: left;
+	padding-left: 10px;
+	font-size: smaller;
+}
+
+

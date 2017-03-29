@@ -1,45 +1,60 @@
-<body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Café du Parc - Contact Us</title>
+	</head>
+
+	<body>
+		
+		<link href="restaurantStyles.css"
+					rel="stylesheet"
+					type="text/css" />
+		
 		<h1>
-			<center> Café du Parc </center>
+			Contact Us
 		</h1>
+		
 		<br/>
 		
 		<hr/>
-			<a href="home.html">	Home	</a>
-			<a href="menu.html">	Menu	</a>
-			<a href="contactUs.html">	Contact Us	</a>
-		<br/>
-		<hr/>
-		<center> 
-		<form action="contactUs.html" method="POST">
-	Name:  <input type="text" name="fullName" /> <br/> <br/>
-	Email: <input type="text" name="email"/> <br/> <br/>
-	Phone: <input type="text" name="phone" /> <br/> <br/>
-	
-	
-	Reason for Inquiry: <select name="options">
-		<option value="catering">Catering</option>
-		<option value="privateParty">Private Party</option>
-		<option value="feedback">Feedback</option>
-		<option value="other">Other</option>
-	</select><br/> <br/>
-	Additional Information: <textarea name="additionalInformation"></textarea><br/> <br/>
-	Have you been to the restaurant? <input type="radio" name="answer" value="no" checked/> No
-		<input type="radio" name="answer" value="yes"/> Yes <br/> <br/>
-	Best days to contact you: <input type="checkbox" name="monday" value="M" />
-		<input type="checkbox" name="tuesday" value=" T " />
-		<input type="checkbox" name="wednesday" value=" W " />
-		<input type="checkbox" name="thursday" value=" Th " />
-		<input type="checkbox" name="friday" value=" F " />
-	</br> <br/>
-	<input type="submit" value="Send Request"/>
-	
-	<hr/>
-			1401 Pennsylvania Avenue N.W. Washington, D.C. 20004
-		<br/>
-			Phone: (202)942-7000
 		
-		</center>
+		<div class="headerTemplate">
+			<a href="home.html">Home |</a>
+			<a href="menu.html">Menu |</a>
+			<a href="contactUs.html">Contact Us</a>
+		</div>
+		
+		<hr/>
+			
+			<form action="contactUs.html" method="POST">
+		Name:  <input type="text" name="fullName" /> <br/> <br/>
+		Email: <input type="text" name="email"/> <br/> <br/>
+		Phone: <input type="text" name="phone" /> <br/> <br/>
+		
+		
+		Reason for Inquiry: <select name="options">
+			<option value="catering">Catering</option>
+			<option value="privateParty">Private Party</option>
+			<option value="feedback">Feedback</option>
+			<option value="other">Other</option>
+		</select><br/> <br/>
+		Additional Information: <textarea name="additionalInformation"></textarea><br/> <br/>
+		Have you been to the restaurant? <input type="radio" name="answer" value="no" checked/> No
+			<input type="radio" name="answer" value="yes"/> Yes <br/> <br/>
+		Best days to contact you: M <input type="checkbox" name="monday" value="M" />
+			T<input type="checkbox" name="tuesday" value="T" />
+			W<input type="checkbox" name="wednesday" value="W" />
+			Th<input type="checkbox" name="thursday" value="Th" />
+			F<input type="checkbox" name="friday" value="F" />
+		<br/>
+		<input type="submit" value="Send Request"/>
+		
+		<hr/>
+		<div class="footerTemplate">
+				1401 Pennsylvania Avenue N.W. Washington, D.C. 20004 <br/>
+				Phone: (202) 942-7000
+			
+		</div>
 	</body>
 </html>
 
