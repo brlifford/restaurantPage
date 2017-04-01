@@ -9,7 +9,7 @@ body {
 }
 
 p {
-	text-align: justify;
+	text-align: center;
 	padding-right: 35px;
 	padding-left: 35px;
 }
@@ -33,10 +33,10 @@ p {
 	padding-left: 10px;
 }
 
-a:link, a:visited, a:active {
+/*a:link, a:visited, a:active {
 	text-decoration: none;
-	font-family: fantasy;
-}
+	font-family: Glyphicons Halflings;
+}*/
 
 a:hover {
 	font-weight: bold;
@@ -52,17 +52,6 @@ caption {
 	padding-left: 65px;
 }
 
-.mainCourse {
-	width: 100%;
-	text-align: center;
-}
-
-.fixedAlign {
-	padding-right: 20%;
-	padding-left: 20%;
-	width: 100%;
-	
-}
 
 
 .beverages {

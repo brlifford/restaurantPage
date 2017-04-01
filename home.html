@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title> Café du Parc </title>
+		
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="restaurantStyles.css"
+						rel="stylesheet"
+						type="text/css" >
 	</head>
 	
 	<body>
-		<link href="restaurantStyles.css"
-						rel="stylesheet"
-						type="text/css" />
+		
 		<h1>
 			Café du Parc
 		</h1>
@@ -16,40 +24,63 @@
 		
 		<hr/>
 		
-		<div class="headerTemplate">
-			<a href="home.html">Home |</a>
-			<a href="menu.html">Menu |</a>
-			<a href="contactUs.html">Contact Us</a>
-		</div>
+		<div class="container">
+			<div class="header clearfix">
+				<nav>
+					<ul class="nav nav-pills">
+		
+						<li role="presentation" class="active"><a href="home.html"><span class="halflings halflings-home"></span> Home</a></li>
+						<li role="presentation"><a href="menu.html">Menu</a></li>
+						<li role="presentation"><a href="contactUs.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
 		
 		<hr/>
-		
-		<div class="backgroundImage">
+		</div>
+		<div class="container-fluid">
+			<div class="jumbotron">
+				<h1>Big news!</h1>
+				<p class="lead">We are opening a new location in the heart of downtown St. Paul!</p>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="backgroundImage">
+			</div>
+				
+			<div class="row">
+				<div class="col-md-3">
+				</div>
+				<div style="padding-top:20px" class="col-md-6">
+					<p>	Discover a truly authentic bistro experience where traditional French food fuses 
+					with a modern, casual atmosphere in the heart of the nation's capital. 
+					Café du Parc has a one-of-a-kind menu enhanced by the use of locally grown produce 
+					and culinary creativity. 
+					</p>
+					<p>	Named one of the best al fresco restaurants in the country, Café du Parc is the 
+					perfect place to savor delicious French cuisine in an iconic Pennsylvania Avenue 
+					location, just steps from the White House and inside the acclaimed Willard 
+					InterContinental Hotel.
+					</p>
+					<h3 style="padding-bottom:20px">Open Daily 7 a.m. to 10 p.m.</h3>
+				
+				</div>
+				<div class="col-md-3">
+				</div>
+			</div>
 		</div>
 		
-		<br/>
-		
-			<p>
-				Discover a truly authentic bistro experience where traditional French food fuses 
-				with a modern, casual atmosphere in the heart of the nation's capital. 
-				Café du Parc has a one-of-a-kind menu enhanced by the use of locally grown produce 
-				and culinary creativity. 
-			</p>
-			<p>
-				Named one of the best al fresco restaurants in the country, Café du Parc is the 
-				perfect place to savor delicious French cuisine in an iconic Pennsylvania Avenue 
-				location, just steps from the White House and inside the acclaimed Willard 
-				InterContinental Hotel.
-			</p>
-			<p>
-				Open Daily 7 a.m. to 10 p.m.
-			</p>
-			
-		<hr/>
-		<div class="footerTemplate">
-			1401 Pennsylvania Avenue N.W. Washington, D.C. 20004 <br/>
-			Phone: (202) 942-7000
-			
+		<div class="container">
+			<div style="border-top:1px solid black" class="footer">
+			1401 French Bistro Road, Edina, MN 55410 <br/>
+			Phone: (952) 929-0000
+			</div>
 		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

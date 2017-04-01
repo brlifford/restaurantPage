@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title> Café du Parc - Menu </title>
-	</head>
-	
-	<body>
+		
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="restaurantStyles.css"
 						rel="stylesheet"
 						type="text/css" />
+	</head>
+	
+	<body>
+		
+		
 		<h1>
 			Menu
 		</h1>
@@ -16,106 +25,203 @@
 		
 		<hr/>
 		
-		<div class="headerTemplate">
-			<a href="home.html">Home |</a>
-			<a href="menu.html">Menu |</a>
-			<a href="contactUs.html">Contact Us</a>
-		</div>
+		<div class="container">
+			<div class="header clearfix">
+				<nav>
+					<ul class="nav nav-pills">
+		
+						<li role="presentation"><a href="home.html">Home</a></li>
+						<li role="presentation" class="active"><a href="menu.html">Menu</a></li>
+						<li role="presentation"><a href="contactUs.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		
+			
+			<hr/>
+			<div class="menuFoodImage"> 
+			</div>
+		
+		<div class="container-fluid">
+			<h2 class="sub-header">Entreés</h2>
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+					<h3>Burger and Fries</h3>
+					<p>An American Classic!<br/>
+						Your choice - with or without cheese
+						Pickle, onion, tomato, and lettuce<br/>
+						Served with our famous thick cut french fries<br/>
+						$7.95</p>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<h3>Hot Dog and Chips</h3>
+					<p>A Summer Classic!<br/>
+						Your choice - white or wheat bun<br/>
+						Relish, mustard, and ketchup<br/>
+						Served with our house-made chips<br/>
+						$7.95</p>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<h3>Italian Sausage and Peppers</h3>
+					<p>An All-Time Favorite!<br/>
+						Your choice - mild or spicy<br/>
+						Cole Slaw<br/>
+						Served with garlic mashers<br/>
+						$10.95</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+					<h3>Tenderloin Sandwich <br/> and Chips</h3>
+					<p>Really Hits the Spot!<br/>
+						Plain or Sesame Seed Bun<br/>
+						Pickle, onion, tomato, and lettuce<br/>
+						Served with our house-made chips<br/>
+						$8.95</p>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<h3>House Salad</h3>
+					<p>On the Lighter Side<br/>
+						Your choice - with or without cheese<br/>
+						Iceberg lettuce, tomatoes, peppers,
+						Thousand Island or Ranch Dressing<br/>
+						Served with a dinner roll<br/>
+						$6.95</p>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<h3>Brisket Sandwich and Fries</h3>
+					<p>A Taste of Texas!<br/>
+					Smoked Brisket on thick-cut Texas Toast<br/>
+					Cole Slaw<br/>
+					Served with our famous thick cut french fries<br/>
+					$7.95</p>
+				</div>
+			</div>
+			<div class="row">
+				<h2 class="sub-header">Beverages</h2>
+				<div class="col-md-3">
+				</div>
+				<div class="col-md-3">
+					
+					<p style="text-align:left">Root Beer<br/>
+					Bottled Water<br/>
+					Lemonade<br/>
+					Iced Tea<br/>
+					</p>
+					<!--<table>
+						<thead></thead>
+						<tbody>
+							<tr>
+								<td>Root Beer</td>
+								<td>$3.00</td>
+							</tr>
+							<tr>
+								<td>Bottled Water</td>
+								<td>$1.25</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$1.00</td>
+							</tr>
+							<tr>
+								<td>Iced Tea</td>
+								<td>$1.25</td>
+							</tr>
+						</tbody>
+					</table>-->
+				</div>
+				<div  class="col-md-3">
+					<p style="text-align:right">$3.00<br/>
+					$1.25<br/>
+					$1.00<br/>
+					$1.25
+					</p>
+				</div>
+				<div class="col-md-3">
+				</div>
+				
+					
+				
+					<!-- <thead>
+						<tr>
+							<th>Burger and Fries</span></th>
+							<th>Hot Dog and Chips</th>
+							<th>Italian Sausage and Peppers</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>An American Classic!<br/>
+							Your choice - with or without cheese<br/>
+							Pickle, onion, tomato, and lettuce<br/>
+							Served with our famous thick cut french fries<br/>
+							$7.95
+							</td>
+							<td>A Summer Classic!<br/>
+							Your choice - white or wheat bun<br/>
+							Relish, mustard, and ketchup<br/>
+							Served with our house-made chips<br/>
+							$7.95
+							</td>
+							<td>An All-Time Favorite!<br/>
+							Your choice - mild or spicy<br/>
+							Cole Slaw<br/>
+							Served with garlic mashers<br/>
+							$10.95
+							</td>
+						</tr>
+					</tbody>
+				</table> 
+			
+				<table>
+					<thead>
+						<tr>
+							<th>Tenderloin Sandwich and Chips</th>
+							<th>House Salad</th>
+							<th>Brisket Sandwich and Fries</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Really Hits the Spot!<br/>
+							Plain or Sesame Seed Bun<br/>
+							Pickle, onion, tomato, and lettuce<br/>
+							Served with our house-made chips<br/>
+							$8.95
+							</td>
+							<td>On the Lighter Side<br/>
+							Your choice - with or without cheese<br/>
+							Iceberg lettuce, tomatoes, peppers, <br/>
+							Thousand Island or Ranch Dressing<br/>
+							Served with a dinner roll<br/>
+							$6.95<br/>
+							</td>
+							<td>A Taste of Texas!<br/>
+							Smoked Brisket on thick-cut Texas Toast<br/>
+							Cole Slaw<br/>
+							Served with our famous thick cut french fries<br/>
+							$7.95</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+		
 		
 		<hr/>
-	<div class="menuFoodImage"> 
-	</div>
-	<table class="fixedAlign">
-		<caption>Entreés</caption>
-		<thead>
-			<tr>
-				<th>Burger and Fries</th>
-				<th>Hot Dog and Chips</th>
-				<th>Italian Sausage and Peppers</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>An American Classic!<br/>
-				Your choice - with or without cheese<br/>
-				Pickle, onion, tomato, and lettuce<br/>
-				Served with our famous thick cut french fries<br/>
-				$7.95
-				</td>
-				<td>A Summer Classic!<br/>
-				Your choice - white or wheat bun<br/>
-				Relish, mustard, and ketchup<br/>
-				Served with our house-made chips<br/>
-				$7.95
-				</td>
-				<td>An All-Time Favorite!<br/>
-				Your choice - mild or spicy<br/>
-				Cole Slaw<br/>
-				Served with garlic mashers<br/>
-				$10.95
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<table class="fixedAlign">
-		<tr>
-			<th>Tenderloin Sandwich and Chips</th>
-			<th>House Salad</th>
-			<th>Brisket Sandwich and Fries</th>
-		</tr>
-		<tbody>
-			<tr>
-				<td>Really Hits the Spot!<br/>
-				Plain or Sesame Seed Bun<br/>
-				Pickle, onion, tomato, and lettuce<br/>
-				Served with our house-made chips<br/>
-				$8.95
-				</td>
-				<td>On the Lighter Side<br/>
-				Your choice - with or without cheese<br/>
-				Iceberg lettuce, tomatoes, peppers, <br/>
-				Thousand Island or Ranch Dressing<br/>
-				Served with a dinner roll<br/>
-				$6.95<br/>
-				</td>
-				<td>A Taste of Texas!<br/>
-				Smoked Brisket on thick-cut Texas Toast<br/>
-				Cole Slaw<br/>
-				Served with our famous thick cut french fries<br/>
-				$7.95</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<table class="beverages">
-		<caption>Beverages</caption>
-		<tbody>
-			<tr>
-				<td>Root Beer</td>
-				<td>$3.00</td>
-			</tr>
-			<tr>
-				<td>Bottled Water</td>
-				<td>$1.25</td>
-			</tr>
-			<tr>
-				<td>Lemonade</td>
-				<td>$1.00</td>
-			</tr>
-			<tr>
-				<td>Iced Tea</td>
-				<td>$1.25</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<hr/>
-	
-	<div class="footerTemplate">
-		1401 Pennsylvania Avenue N.W. Washington, D.C. 20004 <br/>
-		Phone: (202) 942-7000
 		
-	</div>
+			<div class="footerTemplate">
+				1401 Pennsylvania Avenue N.W. Washington, D.C. 20004 <br/>
+				Phone: (202) 942-7000
+				
+			</div>
+			
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+		
 	</body>
+	
 </html>
