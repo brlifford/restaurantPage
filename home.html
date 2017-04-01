@@ -1,86 +1,131 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title> Café du Parc </title>
-		
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="restaurantStyles.css"
-						rel="stylesheet"
-						type="text/css" >
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<body>
-		
-		<h1>
-			Café du Parc
-		</h1>
-		
-		<br/>
-		
-		<hr/>
-		
-		<div class="container">
-			<div class="header clearfix">
-				<nav>
-					<ul class="nav nav-pills">
-		
-						<li role="presentation" class="active"><a href="home.html"><span class="halflings halflings-home"></span> Home</a></li>
-						<li role="presentation"><a href="menu.html">Menu</a></li>
-						<li role="presentation"><a href="contactUs.html">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
-		
-		<hr/>
+	<title> Café du Parc </title>
+	
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="restaurantStyles.css"
+					rel="stylesheet"
+					type="text/css" >
+</head>
+
+<body>
+	
+	<h1 style="padding-bottom: 20px">
+		Café du Parc
+	</h1>
+	
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills">
+					<li role="presentation" class="active"><a href="home.html"><span class="halflings halflings-home"></span> Home</a></li>
+					<li role="presentation"><a href="menu.html">Menu</a></li>
+					<li role="presentation"><a href="contactUs.html">Contact Us</a></li>
+				</ul>
+			</nav>
 		</div>
-		<div class="container-fluid">
-			<div class="jumbotron">
-				<h1>Big news!</h1>
-				<p class="lead">We are opening a new location in the heart of downtown St. Paul!</p>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="backgroundImage">
-			</div>
-				
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div style="padding-top:20px" class="col-md-6">
-					<p>	Discover a truly authentic bistro experience where traditional French food fuses 
-					with a modern, casual atmosphere in the heart of the nation's capital. 
-					Café du Parc has a one-of-a-kind menu enhanced by the use of locally grown produce 
-					and culinary creativity. 
-					</p>
-					<p>	Named one of the best al fresco restaurants in the country, Café du Parc is the 
-					perfect place to savor delicious French cuisine in an iconic Pennsylvania Avenue 
-					location, just steps from the White House and inside the acclaimed Willard 
-					InterContinental Hotel.
-					</p>
-					<h3 style="padding-bottom:20px">Open Daily 7 a.m. to 10 p.m.</h3>
-				
-				</div>
-				<div class="col-md-3">
+	</div>
+	
+	<!-- Carousel
+	======================================== -->
+	<header id="myCarousel" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="fill" style="background-color:Gray;"></div>
+				<div class="carousel-caption">
+					<h1>New location!</h1>
+					<h3>We are opening a new location in the heart of downtown St. Paul!  More details coming soon!</h3>
 				</div>
 			</div>
-		</div>
-		
-		<div class="container">
-			<div style="border-top:1px solid black" class="footer">
-			1401 French Bistro Road, Edina, MN 55410 <br/>
-			Phone: (952) 929-0000
+			<div class="item">
+				<div class="fill" style="background-color:Gray;"></div>
+				<div class="carousel-caption">
+					<h1>Season for Flavor</h1>
+					<h3>We're rolling out our seasonal menu, with special options for this season.</h3>
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill" style="background-color:Gray;"></div>
+				<div class="carousel-caption">
+					<h1>New Drink of the Month</h1>
+					<h3>This month's Drink of the Month is SG Special Brew!</h3>
+				</div>
 			</div>
 		</div>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		
-	</body>
+	
+		<!-- Controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+
+	</header>
+	
+	
+	<!--<div class="container-fluid">
+		<div class="jumbotron">
+			<h1>Big news!</h1>
+			<p class="lead">We are opening a new location in the heart of downtown St. Paul!</p>
+		</div>
+	</div>-->
+	<div class="container-fluid">
+		<div class="backgroundImage">
+		</div>
+			
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div style="padding-top:20px" class="col-md-6">
+				<p>	Discover a truly authentic bistro experience where traditional French food fuses 
+				with a modern, casual atmosphere in the heart of the nation's capital. 
+				Café du Parc has a one-of-a-kind menu enhanced by the use of locally grown produce 
+				and culinary creativity. 
+				</p>
+				<p>	Named one of the best al fresco restaurants in the country, Café du Parc is the 
+				perfect place to savor delicious French cuisine in an iconic Pennsylvania Avenue 
+				location, just steps from the White House and inside the acclaimed Willard 
+				InterContinental Hotel.
+				</p>
+				<h3 style="padding-bottom:20px">Open Daily 7 a.m. to 10 p.m.</h3>
+			
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div style="border-top:1px solid black" class="footer">
+		1401 French Bistro Road, Edina, MN 55410 <br/>
+		Phone: (952) 929-0000
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- Script to Activate the Carousel -->
+	<script>
+	$('.carousel').carousel({
+		interval: 5000 //changes the speed
+	})
+	</script>
+	
+</body>
 </html>
